@@ -1,10 +1,18 @@
-class calc:
- def __init__(self):
-  pass
- def add(self,a,b):
-  return a + b
- def sub(self,a,b): return a - b
- def mult ( a , b ):
-     return a*b
- def div(self,a,b):
-  if b!=0:return a/b
+class Calculadora:
+    def __init__(self):
+        pass
+
+    def adicionar(self, a, b):
+        return a + b
+
+    def subtrair(self, a, b):
+        return a - b
+
+    def multiplicar(self, a, b):
+        return a * b
+
+    def dividir(self, a, b):
+        if b != 0:
+            return a / b
+        else:
+            return "Erro: divisão por zero"
