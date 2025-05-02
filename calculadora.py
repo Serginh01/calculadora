@@ -1,4 +1,5 @@
 class Calculadora:
+  
     def _init_(self):
         # Inicializa a calculadora.
         pass
